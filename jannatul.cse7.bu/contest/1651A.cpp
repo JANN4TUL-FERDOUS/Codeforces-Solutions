@@ -1,0 +1,14 @@
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int t;
+    cin>>t;
+    while(t--){
+        int n;
+        long long a;
+        cin>>n;
+        a=pow(2,n)-1;
+        cout<<a<<endl;
+    }
+    return 0;
+}
